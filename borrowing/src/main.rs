@@ -132,9 +132,7 @@ fn main() {
 
 
     // SLICES
-    // slices are a pointer to a section of an array.
-    // slices are used to give the ownership of a section of an array to a function.
- 
+    // slices are a pointer to a section of an array, vector or string.
     let a = [1, 2, 3, 4, 5];
     let slice = &a[1..3];
     println!("{:?}", slice);
